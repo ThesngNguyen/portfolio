@@ -2,12 +2,11 @@ import './App.css';
 import Navbar from './components/NavBar';
 import Intro from './components/Intro';
 import Abouts from './components/Abouts';
-import React from 'react';
+import React ,{ useRef }  from 'react';
 import { Parallax } from 'react-parallax';
 import backgroundImage from './assets/images/background.jpg';
 
 function App() {
-
   return (
     <div className="App">
       <div className='Navbar'>
@@ -24,7 +23,7 @@ function App() {
           </div>
         </Parallax>
         <Parallax strength={500}>
-          <div className="parallax-content-2">
+          <div className="parallax-content-2" id="next">
             <Abouts />
           </div>
         </Parallax>
