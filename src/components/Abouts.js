@@ -1,7 +1,7 @@
 import React from 'react';
-import './Intro.css';
+import './Abouts.css';
 
-const Intro = () => {
+const Abouts = () => {
   return (
     <div id="intro">
         <div className='intro-Content'>
@@ -15,4 +15,4 @@ const Intro = () => {
   )
 }
 
-export default Intro
+export default Abouts
