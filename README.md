@@ -1,9 +1,11 @@
-##5-6
+**5-6**
 - Update NavBar Responsive v1.2
 - Bug : 
-	Download error on other platform
-	NavBar not working on current session
-##6/6
+	>Download error on other platform
+	>
+ 	>NavBar not working on current session
+
+**6/6**
 - Update Favicon và Title web
 - Hide Scrollbar at verticle
 - Fix :
