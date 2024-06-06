@@ -7,13 +7,99 @@
     position: relative;
 }
 
+.intro-Container {
+    display: flex;
+    position: absolute;
+    top: 17%;
+    left: 5%;
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    backdrop-filter: blur(1px);
+}
+
 .intro-Content {
     height: 100vh;
     width: 100vw;
     padding: 2rem;
     font-size: 2rem;
-    font-weight: 700;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.intro-Icon {
+    color: white;
+    padding-top: 1em;
+    margin: 0 1em 1em 0;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.intro-Icon:hover,
+.intro-Icon:focus {
+    transform: scale(1.1);
+    /* Phóng to icon khi hover hoặc focus */
+}
+
+.intro-Icon svg {
+    color: white;
+    /* Màu sắc của icon */
+    font-size: 2.5rem;
+    /* Kích thước của icon */
+    transition: color 0.3s ease;
+}
+
+.intro-Icon:hover svg,
+.intro-Icon:focus svg {
+    color: rgba(243, 134, 138, 255);
+    /* Màu sắc của icon khi hover hoặc focus */
+}
+
+.intro-Icon:active {
+    transform: scale(0.9);
+    /* Thu nhỏ icon khi click */
+}
+
+welcome-container {
+    display: inline-block;
+}
+
+.welcome {
+    display: inline-block;
+    content: attr(data-text);
+    position: relative;
+    font-size: 7vw;
+    border-right: 5px solid;
+    width: 100%;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    animation: typing 3s infinite, cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+p {
+    color: white;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
 }
