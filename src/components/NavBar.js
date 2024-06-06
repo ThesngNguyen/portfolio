@@ -1,5 +1,5 @@
 import './NavBar.css';
-import React, { useRef } from "react";
+import React from "react";
 import { Link } from 'react-scroll';
 import { FaDownload } from 'react-icons/fa';
 
@@ -12,7 +12,7 @@ const Navbar = () => {
                 <Link className='Menu-ListItem'>Skills</Link>
                 <Link className='Menu-ListItem'>Projects</Link>
             </div>
-            <a href="/CV_NGUYEN-CAO-THANG.pdf" download>
+            <a href="/portfolio/CV_NGUYEN-CAO-THANG.pdf" download>
                 <button className='Menu-Btn'>
                     <FaDownload className='Menu-Btn-Img'/>Download CV
                 </button>
