@@ -14,11 +14,10 @@ function App() {
         <Navbar/>
       </div>
       <div id='title' className='parallax-container'>
-        <Parallax bgImage={backgroundImage} bgImageStyle={{ // Thêm style cho background image
-          width: '150%', // Chiều rộng của hình ảnh là 100%
-          height: 'auto', // Chiều cao tự động điều chỉnh để giữ tỷ lệ hình ảnh
+        <Parallax bgImage={backgroundImage} bgImageStyle={{ // Thêm style cho background image // Chiều rộng của hình ảnh là 100%
+          height: '100%', // Chiều cao tự động điều chỉnh để giữ tỷ lệ hình ảnh
           backgroundRepeat: 'no-repeat', // Ngăn chặn hình ảnh lặp lại
-          backgroundSize: 'cover',
+          backgroundSize: 'contain',
         }} strength={500}>
           <div className="parallax-content">
             <Intro />
