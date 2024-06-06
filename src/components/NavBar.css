@@ -44,6 +44,7 @@
     border-radius: 1rem;
     cursor: pointer;
     transition: transform 0.5s ease, background-color 0.5s ease;
+    text-decoration: none;
 }
 
 .Menu-Btn:hover {
