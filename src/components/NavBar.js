@@ -12,10 +12,8 @@ const Navbar = () => {
                 <Link className='Menu-ListItem'>Skills</Link>
                 <Link className='Menu-ListItem'>Projects</Link>
             </div>
-            <a href="/portfolio/CV_NGUYEN-CAO-THANG.pdf" download>
-                <button className='Menu-Btn'>
-                    <FaDownload className='Menu-Btn-Img'/>Download CV
-                </button>
+            <a href="/portfolio/CV_NGUYEN-CAO-THANG.pdf" download className='Menu-Btn'>
+                <FaDownload className='Menu-Btn-Img'/>Download CV
             </a>
         </nav>
     )
