@@ -34,7 +34,6 @@
 }
 
 .Menu-Btn {
-    display: flex;
     border: none;
     background-color: white;
     color: black;
@@ -46,11 +45,12 @@
     cursor: pointer;
     transition: transform 0.5s ease, background-color 0.5s ease;
     text-decoration: none;
+    font-size: clamp(0.75rem, 2vw, 1rem);
 }
 
 .Menu-Btn:hover {
     background-color: rgba(243, 134, 138, 255);
-    color: whitesmoke;
+    color: white;
     transform: scale(1.1);
 }
 
@@ -60,4 +60,5 @@
     width: 1rem;
     margin: 0.5rem;
     text-decoration: none;
+    font-size: 0.5rem;
 }
