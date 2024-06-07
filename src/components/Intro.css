@@ -1,14 +1,13 @@
 #intro {
     height: calc(100vh - 4rem);
-    width: 100vw;
-    max-width: 75rem;
+    width: 100%;
+    max-width: 85rem;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
 }
 
 .intro-Container {
-    display: flex;
     position: absolute;
     top: 17%;
     left: 5%;
@@ -18,23 +17,32 @@
     align-items: center;
     border-radius: 10px;
     backdrop-filter: blur(1px);
+    flex-direction: column;
 }
 
 .intro-Content {
-    height: 100vh;
-    width: 100vw;
-    padding: 2rem;
+    height: 80%;
+    width: 100%;
+    padding: 0.5rem;
     font-size: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+
+/* Icon */
+
+.intro-Icon-Container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+}
+
 .intro-Icon {
     color: white;
-    padding-top: 1em;
     margin: 0 1em 1em 0;
-    font-size: 2rem;
+    font-size: 1rem;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -51,7 +59,7 @@
 .intro-Icon svg {
     color: white;
     /* Màu sắc của icon */
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     /* Kích thước của icon */
     transition: color 0.3s ease;
 }
@@ -59,30 +67,35 @@
 .intro-Icon:hover svg,
 .intro-Icon:focus svg {
     color: rgba(243, 134, 138, 255);
-    /* Màu sắc của icon khi hover hoặc focus */
 }
 
 .intro-Icon:active {
     transform: scale(0.9);
-    /* Thu nhỏ icon khi click */
 }
 
-welcome-container {
+
+/* End of Icon */
+
+
+/* Welcome Text */
+
+.welcome-container {
     display: inline-block;
 }
 
 .welcome {
     display: inline-block;
+    margin-bottom: 1rem;
     content: attr(data-text);
-    position: relative;
-    font-size: 7vw;
-    border-right: 5px solid;
     width: 100%;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    border-right: 5px solid;
     font-weight: 700;
     white-space: nowrap;
     overflow: hidden;
     color: white;
-    animation: typing 3s infinite, cursor .4s step-end infinite alternate;
+    animation: typing 6s infinite, cursor .4s step-end infinite alternate;
 }
 
 @keyframes cursor {
@@ -96,6 +109,9 @@ welcome-container {
         width: 0
     }
 }
+
+
+/* End of Welcome Text */
 
 p {
     color: white;
