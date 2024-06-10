@@ -47,7 +47,7 @@ const Navbar = () => {
                         Projects
                     </Link>
                 </div>
-                <a href="/portfolio/CV_NGUYEN-CAO-THANG.pdf" download className='Menu-Btn'>
+                <a href="/portfolio/Resume_NguyenCaoThang.pdf" download className='Menu-Btn'>
                     <FaDownload className='Menu-Btn-Img'/>Resume
                 </a>
             </nav>
