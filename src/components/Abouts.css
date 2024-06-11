@@ -1,5 +1,48 @@
+#abouts {
+    height: 100vh;
+    width: 100%;
+    max-width: 85rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .abouts-Container {
-    width: 70%;
-    height: 70%;
-    background-color: aqua;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    backdrop-filter: blur(1px);
+    flex-direction: column;
+}
+
+.carousel-Container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 3rem;
+}
+
+.carousel-Caption {
+    position: absolute;
+    /* Tùy chỉnh vị trí của caption */
+    bottom: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+}
+
+.carousel-Image {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
 }

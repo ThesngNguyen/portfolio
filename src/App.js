@@ -12,9 +12,11 @@ function App() {
   return (
     <ParallaxProvider>
       <div className="App">
-        <div className='Navbar'>
-          <Navbar/>
-        </div>
+        <header>
+          <div className='Navbar'>
+            <Navbar/>
+          </div>
+        </header>
         <div id='title' className='parallax-container' >
           <Parallax bgImage={backgroundImage} bgImageStyle={{ width: '100%', height: '100%', objectFit: 'cover' }} className='background-Image' strength={500}>
             <section className="parallax-content" id="Home">
@@ -22,14 +24,14 @@ function App() {
             </section>
           </Parallax>
           <Parallax strength={500}>
-            <div className="parallax-content-2" id="Abouts">
+            <section className="parallax-content-2" id="Abouts">
               <Abouts />
-            </div>
+            </section>
           </Parallax>
           <Parallax strength={500}>
-            <div className="parallax-content-2" id="Projects">
+            <section className="parallax-content-2" id="Projects">
               <Abouts />
-            </div>
+            </section>
           </Parallax>
         </div>
       </div>

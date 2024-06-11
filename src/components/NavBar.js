@@ -15,8 +15,7 @@ const Navbar = () => {
                         to="Home"
                         spy={true}
                         smooth={true}
-                        offset={-70}
-                        duration={500}
+                        duration={300}
                         className={currentComponent === 'Home' ? 'Menu-ListItem active' : 'Menu-ListItem'}
                         onClick={() => setCurrentComponent('Home')}
                     >
@@ -27,8 +26,7 @@ const Navbar = () => {
                         to="Abouts"
                         spy={true}
                         smooth={true}
-                        offset={-70}
-                        duration={500}
+                        duration={300}
                         className={currentComponent === 'Abouts' ? 'Menu-ListItem active' : 'Menu-ListItem'}
                         onClick={() => setCurrentComponent('Abouts')}
                     >
@@ -39,8 +37,7 @@ const Navbar = () => {
                         to="Projects"
                         spy={true}
                         smooth={true}
-                        offset={-70}
-                        duration={500}
+                        duration={300}
                         className={currentComponent === 'Projects' ? 'Menu-ListItem active' : 'Menu-ListItem'}
                         onClick={() => setCurrentComponent('Projects')}
                     >
