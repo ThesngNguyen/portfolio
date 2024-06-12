@@ -1,19 +1,20 @@
 header nav {
-    display: flex !important;
-    gap: 30px !important;
+    display: flex;
+    gap: 30px;
 }
 
 .navbar {
-    background: linear-gradient(to bottom, rgba(16, 12, 69, 255), transparent 95%) !important;
-    height: 5rem !important;
-    width: 100vw !important;
-    margin: 0 auto !important;
-    padding: 1rem !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    top: 0 !important;
-    z-index: 3 !important;
+    background: linear-gradient(to bottom, rgba(16, 12, 69, 255), transparent 95%);
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap !important;
+    top: 0;
+    z-index: 3;
     position: fixed !important;
 }
 
