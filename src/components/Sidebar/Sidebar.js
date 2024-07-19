@@ -13,43 +13,43 @@ function Sidebar() {
                 <ul className="nav__list">
                     <li className="nav__item">
                         <a href='#home' className="nav__link">
-                            <i className="icon-home"></i>
+                            <i class="fa-solid fa-house"></i>
                         </a>
                     </li>
 
                     <li className="nav__item">
                         <a href="#about" className="nav__link">
-                            <i className='icon-user'></i>
+                            <i class="fa-solid fa-user"></i>
                         </a>
                     </li>
 
                     <li className="nav__item">
                         <a href="#services" className="nav__link">
-                            <i className='icon-briefcase'></i>
+                            <i class="fa-solid fa-briefcase"></i>
                         </a>
                     </li>
 
                     <li className="nav__item">
                         <a href="#experience" className="nav__link">
-                            <i className='icon-graduation'></i>
+                            <i class="fa-solid fa-chalkboard-user"></i>
                         </a>
                     </li>
 
                     <li className="nav__item">
                         <a href="#skill" className="nav__link">
-                            <i className='icon-graph'></i>
+                            <i class="fa-solid fa-code"></i>
                         </a>
                     </li>
 
                     <li className="nav__item">
                         <a href="#project" className="nav__link">
-                            <i className='icon-docs'></i>
+                            <i class="fa-solid fa-file"></i>
                         </a>
                     </li>
 
                     <li className="nav__item">
                         <a href="#contact" className="nav__link">
-                            <i className='icon-bubble'></i>
+                            <i class="fa-solid fa-address-card"></i>
                         </a>
                     </li>
                 </ul>    
