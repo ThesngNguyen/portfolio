@@ -1,0 +1,57 @@
+[{
+        "project_Title": "Kidney Disease Prediction",
+        "project_Image": "project1.png",
+        "project_Description": "The MachineLearning project predicts the incidence of kidney disease based on medical signs recorded in a dataset of more than 1,000 patients.",
+        "project_Technologies": ["ReactJS", "Flask", "Firebase"],
+        "project_Source": "https://github.com/ThesngNguyen/MachineLearning_Kidney_Disease"
+    },
+    {
+        "project_Title": "Employee Attendance",
+        "project_Image": "project2.png",
+        "project_Description": "A project utilizes IoT technology and RFID cards to automate and streamline employee attendance tracking. By swiping their RFID cards, the system updates attendance records in real-time.",
+        "project_Technologies": ["ReactJS", "IoT", "C++", "MySQL"],
+        "project_Source": "https://github.com/ThesngNguyen/IoT_EmployeeRFIDCheck"
+    },
+    {
+        "project_Title": "Restaurent Reserve",
+        "project_Image": "project3.png",
+        "project_Description": "An application designed for table booking at restaurants. Simplify the reservation process, allowing users to effortlessly browse restaurant options, check table availability, and make bookings online.",
+        "project_Technologies": ["React-Native", "Redux", "Replits"],
+        "project_Source": "https://github.com/ThesngNguyen/RestaurantReserve"
+    },
+    {
+        "project_Title": "Scramble Words Game",
+        "project_Image": "project4.png",
+        "project_Description": "A straightforward English learning app where users are given mixed words to learn and have to transform them into intelligible words in a set amount of time.",
+        "project_Technologies": ["React-Native", "Redux", "Firebase"],
+        "project_Source": "https://github.com/duyquan3112/ReactNative_ScrambleWordsGame"
+    },
+    {
+        "project_Title": "Discord Bot",
+        "project_Image": "project5.png",
+        "project_Description": "With basic features like music, random memes, NSFW content, and blackjack for up to 12 players, this is my bot that I made for my homies to enjoy some fun at night in discord.",
+        "project_Technologies": ["Python", "Flask"],
+        "project_Source": "https://github.com/ThesngNguyen/Yang-H-Zui-DiscordBot-v1.2"
+    },
+    {
+        "project_Title": "Authenticate with Firebase",
+        "project_Image": "project6.png",
+        "project_Description": "Since this is my first case study and I'm developing a Flutter application, I'm trying to acquire a feel for the language by authenticating with Firebase.",
+        "project_Technologies": ["Flutter", "Firebase"],
+        "project_Source": "https://github.com/ThesngNguyen/Flutter-Pj1-AuthwithFirebase"
+    },
+    {
+        "project_Title": "HSU Dating App",
+        "project_Image": "project7.png",
+        "project_Description": "My colleagues and I are working together to complete the HoaSen University app, which works on the similar idea as Tinder.",
+        "project_Technologies": ["Flutter", "MySQL", ".Net"],
+        "project_Source": "https://github.com/duyquan3112/do_an_thuc_tap_lap_trinh"
+    },
+    {
+        "project_Title": "Case Study Ransomware",
+        "project_Image": "project8.png",
+        "project_Description": "A straightforward illustration of the operation and principle of ransomware.",
+        "project_Technologies": ["Python"],
+        "project_Source": "https://github.com/ThesngNguyen/RansomwareCaseStudy"
+    }
+]

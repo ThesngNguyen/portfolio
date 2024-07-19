@@ -1,0 +1,36 @@
+[{
+        "Tech_Image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+        "Tech_Name": "React",
+        "Tech_URL": "https://react.dev/"
+    },
+    {
+        "Tech_Image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+        "Tech_Name": "Bootstrap",
+        "Tech_URL": ""
+    },
+    {
+        "Tech_Image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+        "Tech_Name": "C",
+        "Tech_URL": ""
+    },
+    {
+        "Tech_Image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+        "Tech_Name": "C",
+        "Tech_URL": ""
+    },
+    {
+        "Tech_Image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+        "Tech_Name": "C",
+        "Tech_URL": ""
+    },
+    {
+        "Tech_Image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+        "Tech_Name": "C",
+        "Tech_URL": ""
+    },
+    {
+        "Tech_Image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+        "Tech_Name": "C",
+        "Tech_URL": ""
+    }
+]
