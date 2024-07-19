@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <Sidebar></Sidebar>
-      <main className="home">
+      <main className="main">
         <Home></Home>
         <About></About>
         <Experience></Experience>
