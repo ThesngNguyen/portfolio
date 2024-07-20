@@ -1,0 +1,33 @@
+.services__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.875rem;
+}
+
+.services__card {
+    text-align: center;
+    padding: 1.875rem;
+    border-radius: var(--border-radius);
+    background-color: var(--container-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.services__card:hover {
+    transform: translateY(-10px);
+    background-color: rgb(196, 196, 196);
+}
+
+.services__img {
+    margin-bottom: 1.25rem;
+    max-width: 30%;
+    height: auto;
+}
+
+.service__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.services__description {
+    color: var(--text-color);
+}
