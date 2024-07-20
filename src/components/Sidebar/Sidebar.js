@@ -24,14 +24,14 @@ function Sidebar() {
                     </li>
 
                     <li className="nav__item">
-                        <a href="#services" className="nav__link">
-                            <i class="fa-solid fa-briefcase"></i>
+                        <a href="#experience" className="nav__link">
+                            <i class="fa-solid fa-chalkboard-user"></i>
                         </a>
                     </li>
 
                     <li className="nav__item">
-                        <a href="#experience" className="nav__link">
-                            <i class="fa-solid fa-chalkboard-user"></i>
+                        <a href="#services" className="nav__link">
+                            <i class="fa-solid fa-briefcase"></i>
                         </a>
                     </li>
 
