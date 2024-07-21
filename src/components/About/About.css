@@ -39,6 +39,32 @@
 
 @media screen and (max-width: 1024px) {
     .about__container {
+        grid-template-columns: 720px;
+        justify-content: center;
+        row-gap: 1.875rem;
         flex-direction: column;
+    }
+    .about__gif {
+        max-width: 50%;
+        height: auto;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about__container {
+        grid-template-columns: 350px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about__container {
+        grid-template-columns: 320px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .about__container {
+        grid-template-columns: 1fr;
     }
 }
