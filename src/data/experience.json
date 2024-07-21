@@ -28,12 +28,26 @@
         "experienceIcon": "icon-briefcase",
         "experienceLogo": "https://images.seeklogo.com/logo-png/53/2/msi-logo-png_seeklogo-533860.png",
         "experienceYear": "Dec 2020 - Feb 2024",
-        "experienceTitle": "Software Engineering",
+        "experienceTitle": "Micro-Star International (MSI)",
         "experienceDescription": [
             "IT Support",
             "● Take care of KOLs/KOCs that cooperate with MSI.",
             "● Manage the booth to display MSI products at participating events.",
             "● PC Build, maintain and verify the characteristics of the company's hardware goods."
+        ]
+    },
+    {
+        "experienceID": 4,
+        "experienceCategory": "Work",
+        "experienceIcon": "icon-briefcase",
+        "experienceLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK3nABAhJu-ifLBVYv77Yq58Z-sWAkCxRuiA&s",
+        "experienceYear": "Dec 2020 - Feb 2023",
+        "experienceTitle": "Google Developer Student Club - HSU",
+        "experienceDescription": [
+            "Core Member - Developer",
+            "● Designed banners and backdrops for our fanpage.",
+            "● Supported the HSU IT Community with various tasks.",
+            "● Managed workshop events organized by the GDSC Lead."
         ]
     }
 ]
