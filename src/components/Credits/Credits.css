@@ -1,0 +1,14 @@
+.credits__container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.credits__icon {
+    padding-bottom: 1.25rem;
+}
+
+.fa-brands {
+    font-size: 2rem;
+}
