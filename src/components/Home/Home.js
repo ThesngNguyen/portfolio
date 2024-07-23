@@ -10,7 +10,7 @@ function Home() {
     <section className="home container" id="home">
       <div className="intro">
         <img src={Me} alt="" className="home__img" />
-        <h1 className="home__name">Welcome! I'm Thang</h1>
+        <h1 className="home__name">Wassup! I'm Nguyen Cao Thang</h1>
         <span className="home__education">I'm a Front-End Developer</span>
         <Socials></Socials>
         <a href="#contact">

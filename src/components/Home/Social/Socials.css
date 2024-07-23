@@ -14,3 +14,9 @@
 .home__social-link:hover {
     color: hsl(43, 100%, 68%);
 }
+
+@media screen and (max-width: 1024px) {
+    .home__social-link {
+        font-size: 1.125rem;
+    }
+}
