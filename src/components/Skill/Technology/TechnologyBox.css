@@ -1,0 +1,65 @@
+.technology__item {
+    background: var(--body-color);
+    border-radius: var(--border-radius);
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1) inset;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.technology__item:hover {
+    background: var(--container-color);
+    border-radius: var(--border-radius);
+    box-shadow: 12px 12px 12px rgb(0, 0, 0, 0.1);
+    scale: 1.1;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.technology__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem;
+    max-height: 10rem;
+}
+
+[class^=devicon-],
+[class*=" devicon-"] {
+    font-size: 2.1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .technology__item,
+    .technology__box {
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        max-width: 5rem;
+        max-height: 5rem;
+    }
+    .technology__title {
+        display: none;
+    }
+    [class^=devicon-],
+    [class*=" devicon-"] {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .technology__box,
+    .technology__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 2.5rem;
+        max-height: 2.5rem;
+    }
+    [class^=devicon-],
+    [class*=" devicon-"] {
+        font-size: 1rem;
+        padding: 0;
+    }
+}
