@@ -5,6 +5,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
+import Gallery from "./components/Gallery/Gallery";
 import Services from "./components/Services/Services";
 import Skill from "./components/Skill/Skill";
 import Project from "./components/Project/Project";
@@ -19,11 +20,15 @@ function App() {
         <Home></Home>
         <About></About>
         <Experience></Experience>
+        <Gallery></Gallery>
         <Services></Services>
         <Skill></Skill>
         <Project></Project>
         <Contact></Contact>
       </main>
+      <footer>
+        
+      </footer>
     </div>
   );
 }
