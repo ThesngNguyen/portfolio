@@ -1,36 +1,211 @@
 [{
-        "Tech_Image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
-        "Tech_Name": "React",
-        "Tech_URL": "https://react.dev/"
+        "techID": 1,
+        "techIcon": "devicon-react-original colored",
+        "techName": "React",
+        "techCategory": "Library/Framework",
+        "techURL": "https://react.dev/"
     },
     {
-        "Tech_Image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
-        "Tech_Name": "Bootstrap",
-        "Tech_URL": ""
+        "techID": 2,
+        "techIcon": "devicon-bootstrap-plain colored",
+        "techName": "Bootstrap",
+        "techCategory": "Library/Framework",
+        "techURL": "https://react.dev/"
     },
     {
-        "Tech_Image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
-        "Tech_Name": "C",
-        "Tech_URL": ""
+        "techID": 3,
+        "techIcon": "devicon-typescript-plain colored",
+        "techName": "Typescript",
+        "techCategory": "Library/Framework",
+        "techURL": "https://react.dev/"
     },
     {
-        "Tech_Image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
-        "Tech_Name": "C",
-        "Tech_URL": ""
+        "techID": 4,
+        "techIcon": "devicon-python-plain colored",
+        "techName": "Python",
+        "techCategory": "Languages",
+        "techURL": "https://react.dev/"
     },
     {
-        "Tech_Image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
-        "Tech_Name": "C",
-        "Tech_URL": ""
+        "techID": 5,
+        "techIcon": "devicon-c-plain colored",
+        "techName": "C",
+        "techCategory": "Languages",
+        "techURL": "https://react.dev/"
     },
     {
-        "Tech_Image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
-        "Tech_Name": "C",
-        "Tech_URL": ""
+        "techID": 7,
+        "techIcon": "devicon-cplusplus-plain colored",
+        "techName": "C++",
+        "techCategory": "Languages",
+        "techURL": "https://react.dev/"
     },
     {
-        "Tech_Image": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
-        "Tech_Name": "C",
-        "Tech_URL": ""
+        "techID": 8,
+        "techIcon": "devicon-flutter-plain colored",
+        "techName": "Flutter",
+        "techCategory": "Library/Framework",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 9,
+        "techIcon": "devicon-csharp-plain colored",
+        "techName": "C#",
+        "techCategory": "Languages",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 10,
+        "techIcon": "devicon-nextjs-plain colored",
+        "techName": "NextJS",
+        "techCategory": "Library/Framework",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 11,
+        "techIcon": "devicon-nestjs-original colored",
+        "techName": "NestJS",
+        "techCategory": "Library/Framework",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 12,
+        "techIcon": "devicon-nodejs-plain-wordmark colored",
+        "techName": "NodeJS",
+        "techCategory": "Library/Framework",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 13,
+        "techIcon": "devicon-angularjs-plain colored",
+        "techName": "Angular",
+        "techCategory": "Library/Framework",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 14,
+        "techIcon": "devicon-javascript-plain colored",
+        "techName": "Javascript",
+        "techCategory": "Languages",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 15,
+        "techIcon": "devicon-dart-plain colored",
+        "techName": "Dart",
+        "techCategory": "Languages",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 16,
+        "techIcon": "devicon-html5-plain colored",
+        "techName": "HTML",
+        "techCategory": "Languages",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 17,
+        "techIcon": "devicon-css3-plain colored",
+        "techName": "CSS",
+        "techCategory": "Languages",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 18,
+        "techIcon": "devicon-googlecloud-plain colored",
+        "techName": "GCP",
+        "techCategory": "Tools/Platforms",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 19,
+        "techIcon": "devicon-git-plain colored",
+        "techName": "Git",
+        "techCategory": "Tools/Platforms",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 20,
+        "techIcon": "devicon-github-original colored",
+        "techName": "Github",
+        "techCategory": "Tools/Platforms",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 21,
+        "techIcon": "devicon-firebase-plain colored",
+        "techName": "Firebase",
+        "techCategory": "Tools/Platforms",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 22,
+        "techIcon": "devicon-vercel-original-wordmark colored",
+        "techName": "Vercel",
+        "techCategory": "Tools/Platforms",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 23,
+        "techIcon": "devicon-mongodb-plain-wordmark colored",
+        "techName": "MongoDB",
+        "techCategory": "Databases",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 24,
+        "techIcon": "devicon-flask-original-wordmark colored",
+        "techName": "Flask",
+        "techCategory": "Library/Framework",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 25,
+        "techIcon": "devicon-django-plain colored",
+        "techName": "Django",
+        "techCategory": "Library/Framework",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 26,
+        "techIcon": "devicon-figma-plain colored",
+        "techName": "Figma",
+        "techCategory": "Tools/Platforms",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 27,
+        "techIcon": "devicon-trello-plain colored",
+        "techName": "Trello",
+        "techCategory": "Tools/Platforms",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 28,
+        "techIcon": "devicon-jira-plain colored",
+        "techName": "Jira",
+        "techCategory": "Tools/Platforms",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 29,
+        "techIcon": "devicon-mysql-original colored",
+        "techName": "MySQL",
+        "techCategory": "Databases",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 30,
+        "techIcon": "devicon-microsoftsqlserver-plain-wordmark colored",
+        "techName": "SQLServer",
+        "techCategory": "Databases",
+        "techURL": "https://react.dev/"
+    },
+    {
+        "techID": 31,
+        "techIcon": "devicon-postgresql-plain colored",
+        "techName": "PostgreSQL",
+        "techCategory": "Databases",
+        "techURL": "https://react.dev/"
     }
 ]
