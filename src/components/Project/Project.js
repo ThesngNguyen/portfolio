@@ -24,6 +24,7 @@ function Project() {
                   projectSource = {value.projectSource}
                   projectTeamSize = {value.projectTeamSize}
                   projectRole = {value.projectRole}
+                  projectFeatures = {value.projectFeatures}
                 />
               )
             })
