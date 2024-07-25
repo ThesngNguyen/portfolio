@@ -24,6 +24,10 @@
     transition: .3s;
 }
 
+.project__icon:hover {
+    color: hsl(43, 100%, 68%);
+}
+
 .project__link {
     margin-top: .5rem;
     display: flex;
@@ -31,7 +35,7 @@
     align-items: center;
 }
 
-li {
+.project__tech-name {
     font-size: .7rem !important;
 }
 
@@ -51,6 +55,9 @@ li {
 .project__button:hover .project__button-icon {
     transform: translateX(00.25rem);
 }
+
+
+/* Project Modal */
 
 .project__modal {
     position: fixed;
@@ -100,4 +107,8 @@ li {
 .active-modal {
     opacity: 1;
     visibility: visible;
+}
+
+.project__modal-feature {
+    margin-top: .5rem;
 }

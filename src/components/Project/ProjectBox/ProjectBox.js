@@ -12,7 +12,7 @@ const ProjectBox = (props) => {
         <h3>{props.projectTitle}</h3>
         <ul className='project__tech'>
           {props.projectTechnologies.map((technology, index) => (
-            <li key={index}>{technology}</li>
+            <li className='project__tech-name' key={index}>{technology}</li>
           ))}
         </ul>
         <p>{props.projectDescription}</p>
@@ -22,17 +22,25 @@ const ProjectBox = (props) => {
             </a>
 
             <span className="project__button" onClick={() => toggleTab(1)}>View More {" "}
-                <i class="fa-solid fa-arrow-right project__button-icon"></i>
+                <i className="fa-solid fa-arrow-right project__button-icon"></i>
             </span>
 
             <div className={toggleState === 1 ? "project__modal active-modal" : "project__modal"}>
                 <div className="project__modal-content">
-                    <i class="fa-solid fa-circle-xmark project__modal-close" onClick={() => toggleTab(0)}></i>
+                    <i className="fa-solid fa-circle-xmark project__modal-close" onClick={() => toggleTab(0)}></i>
                     <h3 className="project__modal-title">{props.projectTitle}</h3>
                     <img src={getImageUrl(props.projectImage)} alt="" className="project__modal-image"/>
                     <p className="project__modal-description">{props.projectDescription}</p>
-                    <p>Team Size : {props.projectTeamSize}</p>
-                    <p>Role : {props.projectRole}</p>
+                    <div className="project__modal-feature">
+                      <p><b>Team Size :</b> {props.projectTeamSize}</p>
+                      <p><b>Role :</b> {props.projectRole}</p>
+                      <ul>
+                        <li><u><b>Features :</b></u></li>
+                        {props.projectFeatures.map((features, index) => (
+                          <li key={index}>{features}</li>
+                        ))}
+                      </ul>
+                    </div>
                 </div>
             </div>
         </div>
