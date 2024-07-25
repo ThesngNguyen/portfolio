@@ -10,6 +10,7 @@ import Services from "./components/Services/Services";
 import Skill from "./components/Skill/Skill";
 import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
+import Credits from './components/Credits/Credits';
 
 
 function App() {
@@ -26,8 +27,8 @@ function App() {
         <Project></Project>
         <Contact></Contact>
       </main>
-      <footer>
-        
+      <footer className='footer'>
+        <Credits></Credits>
       </footer>
     </div>
   );
