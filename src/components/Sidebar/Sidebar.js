@@ -15,49 +15,49 @@ function Sidebar() {
                 <ul className="nav__list">
                     <li className="nav__item">
                         <a href='#home' className="nav__link">
-                            <i class="fa-solid fa-house"></i>
+                            <i className="fa-solid fa-house"></i>
                         </a>
                     </li>
 
                     <li className="nav__item">
                         <a href="#about" className="nav__link">
-                            <i class="fa-solid fa-user"></i>
+                            <i className="fa-solid fa-user"></i>
                         </a>
                     </li>
 
                     <li className="nav__item">
                         <a href="#experience" className="nav__link">
-                            <i class="fa-solid fa-chalkboard-user"></i>
+                            <i className="fa-solid fa-chalkboard-user"></i>
                         </a>
                     </li>
 
                     <li className="nav__item">
                         <a href="#gallery" className="nav__link">
-                            <i class="fa-solid fa-image"></i>
+                            <i className="fa-solid fa-image"></i>
                         </a>
                     </li>
 
                     <li className="nav__item">
                         <a href="#services" className="nav__link">
-                            <i class="fa-solid fa-briefcase"></i>
+                            <i className="fa-solid fa-briefcase"></i>
                         </a>
                     </li>
 
                     <li className="nav__item">
                         <a href="#skill" className="nav__link">
-                            <i class="fa-solid fa-code"></i>
+                            <i className="fa-solid fa-code"></i>
                         </a>
                     </li>
 
                     <li className="nav__item">
                         <a href="#project" className="nav__link">
-                            <i class="fa-solid fa-file"></i>
+                            <i className="fa-solid fa-file"></i>
                         </a>
                     </li>
 
                     <li className="nav__item">
                         <a href="#contact" className="nav__link">
-                            <i class="fa-solid fa-address-card"></i>
+                            <i className="fa-solid fa-address-card"></i>
                         </a>
                     </li>
                 </ul>    
