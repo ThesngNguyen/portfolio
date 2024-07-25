@@ -6,7 +6,7 @@ function Credits() {
     <section className="credits container section" id="credits">
         <div className='credits__container'>
             <div className='credits__icon'>
-                <a href="https://github.com/ThesngNguyen/portfolio" target='_blank' rel='noreferrer'>
+                <a href="https://github.com/ThesngNguyen/portfolio" className='credits__link' target='_blank' rel='noreferrer'>
                     <i className="fa-brands fa-github"></i>
                 </a>
             </div>
