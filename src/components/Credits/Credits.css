@@ -1,3 +1,7 @@
+.credits {
+    background: var(--body-color);
+}
+
 .credits__container {
     display: flex;
     justify-content: center;
