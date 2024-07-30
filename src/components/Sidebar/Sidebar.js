@@ -2,9 +2,16 @@ import React, { useState } from 'react';
 import "./Sidebar.css";
 import Logo from "../../assets/logo.png";
 
-function Sidebar() {
+function Sidebar({ toggleTheme }) {
     const [toggle, showMenu] = useState(false);
-  return (
+    const [isDarkMode, setIsDarkMode] = useState(false);
+
+    const handleToggleTheme = () => {
+        setIsDarkMode(prevMode => !prevMode);
+        toggleTheme();
+    };
+    
+    return (
     <>
     <aside className={toggle ? "aside show-menu" : "aside"}>
         <a href='#home' className='nav__logo'>
@@ -56,8 +63,8 @@ function Sidebar() {
                     </li>
 
                     <li className="nav__item">
-                        <a href="#contact" className="nav__link">
-                            <i className="fa-solid fa-address-card"></i>
+                        <a href="#Nothing" className="nav__link" onClick={e => e.preventDefault()}>
+                            <i className={isDarkMode ? "fa-solid fa-moon" : "fa-solid fa-sun"} onClick={handleToggleTheme}></i>
                         </a>
                     </li>
                 </ul>    
