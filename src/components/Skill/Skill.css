@@ -1,3 +1,7 @@
+.skill {
+    background: var(--body-color);
+}
+
 .skill__container {
     grid-template-columns: repeat(5, 1fr);
     justify-content: space-between;
