@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide} from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination'; 
+import { getImageUrl } from '../../data/utils';
 
 function Gallery() {
   return (
@@ -27,7 +28,7 @@ function Gallery() {
                     return(
                         <SwiperSlide className="gallery__item" key={galleryID}>
                             <div className="thumb">
-                                <img src={galleryImage} alt="" className='gallery__img'/>
+                                <img src={getImageUrl(galleryImage)} alt="" className='gallery__img'/>
                             </div>
                             <h3 className="gallery__title">{galleryTitle}</h3>
                             <p className="subtitle">{gallerySubtitle}</p>
