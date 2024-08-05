@@ -1,5 +1,54 @@
 [{
         "projectID": 1,
+        "projectTitle": "HSU Dating App",
+        "projectImage": "project7.png",
+        "projectDescription": "My colleagues and I are working together to complete the HoaSen University app, which works on the similar idea as Tinder.",
+        "projectTechnologies": ["Flutter", "MySQL", ".NET", "C#", "Firecloud Storage", "Firebase RealTime Database", "Microservices", "Jira", "Figma", "JWT", "OAuth2"],
+        "projectTeamSize": "4",
+        "projectRole": "UX/UI Designer, Front-End Developer, Back-End Support",
+        "projectFeatures": [
+            "● Users can create profiles, set preferences, and swipe through potential matches based on mutual interests.",
+            "● Allows users to chat with their matches in real-time using Firebase RealTime Database.",
+            "● Sends notifications for new matches, messages, and other important updates.",
+            "● Uses location data to show nearby users and potential matches.",
+            "● Enables users to upload and share photos and media within their profiles and messages."
+        ],
+        "projectSource": "https://github.com/duyquan3112/do_an_thuc_tap_lap_trinh"
+    },
+    {
+        "projectID": 5,
+        "projectTitle": "Scramble Words Game",
+        "projectImage": "project4.png",
+        "projectDescription": "A straightforward English learning app where users are given mixed words to learn and have to transform them into intelligible words in a set amount of time.",
+        "projectTechnologies": ["React-Native", "Redux", "NodeJS", "Firebase", "Heroku", "Microservices"],
+        "projectTeamSize": "2",
+        "projectRole": "Front-End Mobile Developer, UX/UI Designer",
+        "projectFeatures": [
+            "● Users are presented with scrambled words and must rearrange them into correct words within a set time limit.",
+            "● Allows users to compete with friends or other users in real-time word scramble challenges.",
+            "● Displays top scores and ranks players based on their performance.",
+            "● Users can track their progress and see their improvement over time."
+        ],
+        "projectSource": "https://github.com/duyquan3112/ReactNative_ScrambleWordsGame"
+    },
+    {
+        "projectID": 3,
+        "projectTitle": "Employee Attendance",
+        "projectImage": "project2.png",
+        "projectDescription": "A project utilizes IoT technology and RFID cards to automate and streamline employee attendance tracking. By swiping their RFID cards, the system updates attendance records in real-time.",
+        "projectTechnologies": ["ReactJS", "React-Native", "NodeJS", "SCSS", "C++", "MySQL"],
+        "projectTeamSize": "1",
+        "projectRole": "FullStack Web/Mobile Developer, Embedded Engineer",
+        "projectFeatures": [
+            "● Using Arduino and RFID tags for real-time employee check-in and check-out.",
+            "● Storing employee data in a database, with access restricted to Admins only.",
+            "● Integration of a Mobile App for check-in and check-out if the RFID card encounters issues.",
+            "● Enhanced security with a function that only allows entry and exit for individuals with employee cards."
+        ],
+        "projectSource": "https://github.com/ThesngNguyen/IoT_EmployeeRFIDCheck"
+    },
+    {
+        "projectID": 2,
         "projectTitle": "Kidney Disease Prediction",
         "projectImage": "project1.png",
         "projectDescription": "The MachineLearning project predicts the incidence of kidney disease based on medical signs recorded in a dataset of more than 1,000 patients.",
@@ -14,23 +63,7 @@
         "projectSource": "https://github.com/ThesngNguyen/MachineLearning_Kidney_Disease"
     },
     {
-        "projectID": 2,
-        "projectTitle": "Employee Attendance",
-        "projectImage": "project2.png",
-        "projectDescription": "A project utilizes IoT technology and RFID cards to automate and streamline employee attendance tracking. By swiping their RFID cards, the system updates attendance records in real-time.",
-        "projectTechnologies": ["ReactJS", "React-Native", "NodeJS", "IoT", "C++", "MySQL"],
-        "projectTeamSize": "1",
-        "projectRole": "FullStack Web/Mobile Developer, Embedded Engineer",
-        "projectFeatures": [
-            "● Using Arduino and RFID tags for real-time employee check-in and check-out.",
-            "● Storing employee data in a database, with access restricted to Admins only.",
-            "● Integration of a Mobile App for check-in and check-out if the RFID card encounters issues.",
-            "● Enhanced security with a function that only allows entry and exit for individuals with employee cards."
-        ],
-        "projectSource": "https://github.com/ThesngNguyen/IoT_EmployeeRFIDCheck"
-    },
-    {
-        "projectID": 3,
+        "projectID": 4,
         "projectTitle": "Restaurent Reserve",
         "projectImage": "project3.png",
         "projectDescription": "An application designed for table booking at restaurants. Simplify the reservation process, allowing users to effortlessly browse restaurant options, check table availability, and make bookings online.",
@@ -44,23 +77,7 @@
         "projectSource": "https://github.com/ThesngNguyen/RestaurantReserve"
     },
     {
-        "projectID": 4,
-        "projectTitle": "Scramble Words Game",
-        "projectImage": "project4.png",
-        "projectDescription": "A straightforward English learning app where users are given mixed words to learn and have to transform them into intelligible words in a set amount of time.",
-        "projectTechnologies": ["React-Native", "Redux", "Firebase", "Heroku", "Microservices"],
-        "projectTeamSize": "2",
-        "projectRole": "Front-End Mobile Developer, UX/UI Designer",
-        "projectFeatures": [
-            "● Users are presented with scrambled words and must rearrange them into correct words within a set time limit.",
-            "● Allows users to compete with friends or other users in real-time word scramble challenges.",
-            "● Displays top scores and ranks players based on their performance.",
-            "● Users can track their progress and see their improvement over time."
-        ],
-        "projectSource": "https://github.com/duyquan3112/ReactNative_ScrambleWordsGame"
-    },
-    {
-        "projectID": 5,
+        "projectID": 6,
         "projectTitle": "Discord Bot",
         "projectImage": "project5.png",
         "projectDescription": "With basic features like music, random memes, NSFW content, and blackjack for up to 12 players, this is my bot that I made for my homies to enjoy some fun at night in discord.",
@@ -75,23 +92,6 @@
             "● Updating...."
         ],
         "projectSource": "https://github.com/ThesngNguyen/Yang-H-Zui-DiscordBot-v1.2"
-    },
-    {
-        "projectID": 6,
-        "projectTitle": "HSU Dating App",
-        "projectImage": "project7.png",
-        "projectDescription": "My colleagues and I are working together to complete the HoaSen University app, which works on the similar idea as Tinder.",
-        "projectTechnologies": ["Flutter", "MySQL", ".NET", "C#", "Firecloud Storage", "Firebase RealTime Database", "Microservices", "Jira", "Figma"],
-        "projectTeamSize": "4",
-        "projectRole": "UX/UI Designer, Front-End Developer, Back-End Support",
-        "projectFeatures": [
-            "● Users can create profiles, set preferences, and swipe through potential matches based on mutual interests.",
-            "● Allows users to chat with their matches in real-time using Firebase RealTime Database.",
-            "● Sends notifications for new matches, messages, and other important updates.",
-            "● Uses location data to show nearby users and potential matches.",
-            "● Enables users to upload and share photos and media within their profiles and messages."
-        ],
-        "projectSource": "https://github.com/duyquan3112/do_an_thuc_tap_lap_trinh"
     },
     {
         "projectID": 7,
