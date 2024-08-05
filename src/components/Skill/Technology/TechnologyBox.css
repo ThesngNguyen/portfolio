@@ -1,15 +1,15 @@
 .technology__item {
     background: var(--body-color);
     border-radius: var(--border-radius);
-    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1) inset, -10px -10px 10px white inset;
     cursor: pointer;
     transition: .3s;
 }
 
 .technology__item:hover {
-    background: var(--container-color);
+    background: var(--body-color);
     border-radius: var(--border-radius);
-    box-shadow: 12px 12px 12px rgb(0, 0, 0, 0.1);
+    box-shadow: 12px 12px 12px rgb(0, 0, 0, 0.1), -10px -10px 10px white;
     scale: 1.1;
     transition: .3s;
     cursor: pointer;
