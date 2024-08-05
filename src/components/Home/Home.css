@@ -26,7 +26,7 @@
 }
 
 .home__button-profile {
-    color: blue;
+    color: var(--link-color);
 }
 
 .home__button-profile:hover {

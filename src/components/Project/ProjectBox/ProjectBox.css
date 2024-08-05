@@ -25,7 +25,7 @@
 }
 
 .project__icon:hover {
-    color: hsl(43, 100%, 68%);
+    color: var(--hover-color);
 }
 
 .project__link {

@@ -10,6 +10,8 @@
     --title-color: hsl(244, 24%, 26%);
     --text-color: hsl(244, 16%, 43%);
     --body-color: hsl(258, 60%, 98%);
+    --link-color: hsl(239, 100%, 50%);
+    --hover-color: hsl(239, 100%, 61%);
     --container-color: #fff;
     /* Font n Typo */
     --body-font: 'Rubik', sans-serif;
@@ -35,6 +37,8 @@
     --title-color: hsl(0, 0%, 95%);
     --text-color: hsl(0, 0%, 80%);
     --body-color: hsl(0, 0%, 15%);
+    --link-color: hsl(195, 100%, 50%);
+    --hover-color: hsl(195, 100%, 40%);
     --container-color: hsl(0, 0%, 40%);
     /* Box Shadow */
     --shadow: 0px 5px 20px 0px rgb(255 255 255 / 15%);
@@ -92,6 +96,7 @@ h3 {
 
 ul {
     list-style: none;
+    color: var(--text-color);
 }
 
 p {

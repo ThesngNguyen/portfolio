@@ -12,7 +12,7 @@
 }
 
 .home__social-link:hover {
-    color: hsl(43, 100%, 68%);
+    color: var(--hover-color);
 }
 
 @media screen and (max-width: 1024px) {

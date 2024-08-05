@@ -21,12 +21,12 @@
 }
 
 .contact__socials {
-    color: rgb(182, 0, 182);
+    color: var(--link-color);
 }
 
 .contact__socials:hover {
     text-decoration: underline;
-    color: blueviolet;
+    color: var(--hover-color);
 }
 
 @media screen and (max-width:1024px) {
