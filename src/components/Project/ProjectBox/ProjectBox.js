@@ -34,7 +34,7 @@ const ProjectBox = (props) => {
                     <div className="project__modal-feature">
                       <p><b>Team Size :</b> {props.projectTeamSize}</p>
                       <p><b>Role :</b> {props.projectRole}</p>
-                      <ul>
+                      <ul className="project__scrollable-features">
                         <li><u><b>Features :</b></u></li>
                         {props.projectFeatures.map((features, index) => (
                           <li key={index}>{features}</li>
