@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import React, { useState } from 'react';
 
 import Sidebar from "./components/Sidebar/Sidebar";
 import Home from "./components/Home/Home";
@@ -12,11 +12,15 @@ import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
 import Credits from './components/Credits/Credits';
 
+const App = () => {
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
-function App() {
+  const toggleTheme = () => {
+    setIsDarkMode(prevMode => !prevMode);
+  };
   return (
-    <div>
-      <Sidebar></Sidebar>
+    <div data-theme={isDarkMode ? 'dark-mode' : 'light-mode'}>
+      <Sidebar toggleTheme={toggleTheme}></Sidebar>
       <main className="main">
         <Home></Home>
         <About></About>
