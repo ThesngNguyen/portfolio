@@ -14,9 +14,9 @@ function Home() {
         <span className="home__education">I'm a Front-End Developer</span>
         <Socials></Socials>
         <a href="#contact">
-          <a href="https://drive.google.com/file/d/1BHBJq65b1sQBx2UbzQ6XxvjoScLp9_2F/view?usp=drive_link" className='home__button-profile' target='_blank' rel="noreferrer" >Resume</a>
+          <a href="https://drive.google.com/file/d/1BHBJq65b1sQBx2UbzQ6XxvjoScLp9_2F/view?usp=sharing" className='home__button-profile' target='_blank' rel="noreferrer" >Resume</a>
           <span style={{color: 'black', fontweight: '600'}}> | </span>
-          <a href="https://drive.google.com/file/d/1m6_xLzbcGnwl66HsUkUHtMY4cLrH-Oo_/view?usp=drive_link" className='home__button-profile' target='_blank' rel="noreferrer">CV</a>
+          <a href="https://drive.google.com/file/d/1m6_xLzbcGnwl66HsUkUHtMY4cLrH-Oo_/view?usp=sharing" className='home__button-profile' target='_blank' rel="noreferrer">CV</a>
         </a>
         <ScrollDown></ScrollDown>
       </div>
