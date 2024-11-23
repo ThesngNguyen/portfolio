@@ -1,0 +1,25 @@
+[{
+        "galleryID": 1,
+        "galleryImage": "image4.jpg",
+        "galleryTitle": "Google Developer Student Club - Hoa Sen University",
+        "gallerySubtitle": "These are the official members of the Google Developer Student Club at Hoa Sen University. Even though a few couldn't join us, I really appreciate this fam!!! ♥♥♥"
+    },
+    {
+        "galleryID": 2,
+        "galleryImage": "image1.jpg",
+        "galleryTitle": "Google Solution Challenge Global 2022 - Top 1",
+        "gallerySubtitle": "These are my bros from da club, and they are truly amazing. They've helped me a lot on this journey. Anyway, kudos to all members who contributed ideas and participated in developing this project. 🤜"
+    },
+    {
+        "galleryID": 3,
+        "galleryImage": "image3.jpg",
+        "galleryTitle": "Hoa Sen Champion 2022 - Sponsor",
+        "gallerySubtitle": "Game Time! This is one of the activities of our school's Gaming Club, with many participants joining the tournament of 16 teams. It was also my first time securing sponsorship for our school's tournament. Win or lose, everyone's sportsmanship was amazing <3"
+    },
+    {
+        "galleryID": 4,
+        "galleryImage": "image2.jpg",
+        "galleryTitle": "Hoa Sen TechDev Challenge 2023 - Top 7",
+        "gallerySubtitle": "Although it's unfortunate that we finished 7th out of 16, it was still quite an interesting experience. At least after this tournament, I realized there's a long way to go. LOL xD"
+    }
+]

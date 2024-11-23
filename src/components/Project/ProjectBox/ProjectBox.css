@@ -1,0 +1,119 @@
+.project__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background-color: var(--body-color);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    padding: 1.75rem;
+}
+
+.project__tech {
+    width: 100%;
+    margin-top: .2rem;
+    margin-bottom: .5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.project__icon {
+    color: var(--title-color);
+    transition: .3s;
+}
+
+.project__icon:hover {
+    color: var(--hover-color);
+}
+
+.project__link {
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project__tech-name {
+    font-size: .7rem !important;
+}
+
+.project__button {
+    color: var(--title-color);
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    cursor: pointer;
+}
+
+.project__button-icon {
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.project__button:hover .project__button-icon {
+    transform: translateX(00.25rem);
+}
+
+
+/* Project Modal */
+
+.project__modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.project__modal-content {
+    width: 500px;
+    position: relative;
+    background-color: var(--container-color);
+    padding: 4.5rem 2.5rem 2.5rem;
+    border-radius: 1.5rem;
+}
+
+.project__modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+.project__modal-title {
+    text-align: center;
+}
+
+.project__modal-title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 1rem;
+}
+
+.active-modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+.project__modal-feature {
+    margin-top: .5rem;
+}
+
+.project__scrollable-features {
+    max-height: 160px;
+    overflow-y: auto;
+    padding-right: 10px;
+}

@@ -1,0 +1,34 @@
+.home {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--body-color);
+}
+
+.intro {
+    max-width: 540px;
+    text-align: center;
+    z-index: 1;
+}
+
+.home__img {
+    margin-bottom: 1.5rem;
+    max-width: 30%;
+    height: auto;
+}
+
+.home__name {
+    font-size: var(--h1-font-size);
+    font-weight: var(--font-bold);
+    margin-bottom: 0.5rem;
+}
+
+.home__button-profile {
+    color: var(--link-color);
+}
+
+.home__button-profile:hover {
+    text-decoration: underline;
+}
