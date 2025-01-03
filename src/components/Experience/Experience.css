@@ -1,0 +1,30 @@
+.experience {
+    background: var(--body-color);
+}
+
+.experience__container {
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 1.875rem;
+}
+
+.timeline {
+    background-color: var(--container-color);
+    padding: 1.875rem;
+    border-radius: var(--border-radius);
+    position: relative;
+    box-shadow: var(--shadow);
+}
+
+@media screen and (max-width:1024px) {
+    .experience__container {
+        grid-template-columns: 450px;
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .experience__container {
+        grid-template-columns: 1fr;
+    }
+}

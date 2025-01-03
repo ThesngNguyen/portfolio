@@ -1,0 +1,22 @@
+.project {
+    background: var(--body-color);
+}
+
+.project__container {
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.project__title {
+    grid-area: 1 / 1 / auto / 4;
+}
+
+.project__list {
+    grid-area: 1 / 4 / auto / 12;
+}
+
+@media screen and (max-width: 1024px) {
+    .project__container {
+        display: flex;
+        flex-direction: column;
+    }
+}

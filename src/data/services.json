@@ -1,0 +1,13 @@
+[{
+        "serviceID": 1,
+        "serviceImage": "https://cdn-icons-png.flaticon.com/512/8448/8448634.png",
+        "serviceTitle": "UI/UX Design",
+        "serviceDescription": "I have basic skills in Adobe software for UX/UI design, including editing interfaces and designing simple banners and backdrops. My experience includes creating visually appealing layouts and graphics tailored to user needs."
+    },
+    {
+        "serviceID": 2,
+        "serviceImage": "https://cdn-icons-png.flaticon.com/512/11096/11096817.png",
+        "serviceTitle": "Web Development",
+        "serviceDescription": "My strength in web development lies in Frontend. I can effectively handle basic interface components and widgets using the knowledge and skills I've gained from my studies and hands-on practice. Currently, I am also learning how to handle algorithms to expand my expertise towards Backend development."
+    }
+]

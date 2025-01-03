@@ -1,0 +1,134 @@
+[{
+        "projectID": 8,
+        "projectTitle": "Loyalty Program",
+        "projectImage": "",
+        "projectDescription": "A community-driven app designed for local independent businesses, enabling users to engage with their favorite spots, earn rewards through promotions, and foster loyalty as valued members.",
+        "projectTechnologies": ["ReactJS", "React Native", "TypeORM", "Firebase", "Microservices", "PostgreSQL", "JWT", "OAuth2", "Push Notifications", "Figma", "GitHub", "Jira", "AWS", "TestFlight", "Docker", "CI/CD"],
+        "projectTeamSize": "4",
+        "projectRole": "FullStack Web/Mobile Developer, Mobile Supporter",
+        "projectFeatures": [
+            "● ",
+            "● ",
+            "● ",
+            "● ",
+            "● "
+        ],
+        "projectSource": "",
+        "projectLink": "https://www.popin.social/"
+    }, {
+        "projectID": 1,
+        "projectTitle": "HSU Dating App",
+        "projectImage": "project7.png",
+        "projectDescription": "My colleagues and I are working together to complete the HoaSen University app, which works on the similar idea as Tinder.",
+        "projectTechnologies": ["Flutter", "MySQL", ".NET", "C#", "Firecloud Storage", "Firebase RealTime Database", "Microservices", "Jira", "Figma", "JWT", "OAuth2"],
+        "projectTeamSize": "4",
+        "projectRole": "UX/UI Designer, Front-End Developer, Back-End Support",
+        "projectFeatures": [
+            "● Users can create profiles, set preferences, and swipe through potential matches based on mutual interests.",
+            "● Allows users to chat with their matches in real-time using Firebase RealTime Database.",
+            "● Sends notifications for new matches, messages, and other important updates.",
+            "● Uses location data to show nearby users and potential matches.",
+            "● Enables users to upload and share photos and media within their profiles and messages."
+        ],
+        "projectSource": "https://github.com/duyquan3112/do_an_thuc_tap_lap_trinh",
+        "projectLink": ""
+    },
+    {
+        "projectID": 5,
+        "projectTitle": "Scramble Words Game",
+        "projectImage": "project4.png",
+        "projectDescription": "A straightforward English learning app where users are given mixed words to learn and have to transform them into intelligible words in a set amount of time.",
+        "projectTechnologies": ["React-Native", "Redux", "NodeJS", "Firebase", "Heroku", "Microservices"],
+        "projectTeamSize": "2",
+        "projectRole": "Front-End Mobile Developer, UX/UI Designer",
+        "projectFeatures": [
+            "● Users are presented with scrambled words and must rearrange them into correct words within a set time limit.",
+            "● Allows users to compete with friends or other users in real-time word scramble challenges.",
+            "● Displays top scores and ranks players based on their performance.",
+            "● Users can track their progress and see their improvement over time."
+        ],
+        "projectSource": "https://github.com/duyquan3112/ReactNative_ScrambleWordsGame",
+        "projectLink": ""
+    },
+    {
+        "projectID": 3,
+        "projectTitle": "Employee Attendance",
+        "projectImage": "project2.png",
+        "projectDescription": "A project utilizes IoT technology and RFID cards to automate and streamline employee attendance tracking. By swiping their RFID cards, the system updates attendance records in real-time.",
+        "projectTechnologies": ["ReactJS", "React-Native", "NodeJS", "SCSS", "C++", "MySQL"],
+        "projectTeamSize": "1",
+        "projectRole": "FullStack Web/Mobile Developer, Embedded Engineer",
+        "projectFeatures": [
+            "● Using Arduino and RFID tags for real-time employee check-in and check-out.",
+            "● Storing employee data in a database, with access restricted to Admins only.",
+            "● Integration of a Mobile App for check-in and check-out if the RFID card encounters issues.",
+            "● Enhanced security with a function that only allows entry and exit for individuals with employee cards."
+        ],
+        "projectSource": "https://github.com/ThesngNguyen/IoT_EmployeeRFIDCheck",
+        "projectLink": ""
+    },
+    {
+        "projectID": 2,
+        "projectTitle": "Kidney Disease Prediction",
+        "projectImage": "project1.png",
+        "projectDescription": "The MachineLearning project predicts the incidence of kidney disease based on medical signs recorded in a dataset of more than 1,000 patients.",
+        "projectTechnologies": ["ReactJS", "Flask", "Jupyter", "Firebase", "ChatGPT-API"],
+        "projectTeamSize": "1",
+        "projectRole": "FullStack Developer",
+        "projectFeatures": [
+            "● Utilizing 4 models to calculate the probability of kidney disease.",
+            "● Allowing patients to input their information, measure the disease probability, and save it to a database.",
+            "● Integrating the ChatGPT API to provide advice to patients."
+        ],
+        "projectSource": "https://github.com/ThesngNguyen/MachineLearning_Kidney_Disease",
+        "projectLink": ""
+    },
+    {
+        "projectID": 4,
+        "projectTitle": "Restaurent Reserve",
+        "projectImage": "project3.png",
+        "projectDescription": "An application designed for table booking at restaurants. Simplify the reservation process, allowing users to effortlessly browse restaurant options, check table availability, and make bookings online.",
+        "projectTechnologies": ["React-Native", "Redux", "Replits"],
+        "projectTeamSize": "1",
+        "projectRole": "FullStack Mobile Developer",
+        "projectFeatures": [
+            "● Enabling users to view the menu, read reviews, and leave their own reviews of dishes.",
+            "● Allowing users to make reservations in advance through email or phone."
+        ],
+        "projectSource": "https://github.com/ThesngNguyen/RestaurantReserve",
+        "projectLink": ""
+    },
+    {
+        "projectID": 6,
+        "projectTitle": "Discord Bot",
+        "projectImage": "project5.png",
+        "projectDescription": "With basic features like music, random memes, NSFW content, and blackjack for up to 12 players, this is my bot that I made for my homies to enjoy some fun at night in discord.",
+        "projectTechnologies": ["Python", "Flask"],
+        "projectTeamSize": "1",
+        "projectRole": "FullStack Developer",
+        "projectFeatures": [
+            "● Allows users to play and control music within Discord voice channels.",
+            "● Generates and shares random memes from various sources.",
+            "● Provides access to NSFW content based on user permissions and settings.",
+            "● Supports a blackjack game for up to 12 players, with game rules and interactions handled by the bot.",
+            "● Updating...."
+        ],
+        "projectSource": "https://github.com/ThesngNguyen/Yang-H-Zui-DiscordBot-v1.2",
+        "projectLink": ""
+    },
+    {
+        "projectID": 7,
+        "projectTitle": "Case Study Ransomware",
+        "projectImage": "project8.png",
+        "projectDescription": "A straightforward illustration of the operation and principle of ransomware.",
+        "projectTechnologies": ["Python"],
+        "projectTeamSize": "1",
+        "projectRole": "FullStack Developer",
+        "projectFeatures": [
+            "● Demonstrates how ransomware encrypts files and demands a ransom for decryption.",
+            "● Includes examples of various ransomware attack scenarios and methods for recovery."
+        ],
+        "projectSource": "https://github.com/ThesngNguyen/RansomwareCaseStudy",
+        "projectLink": ""
+    }
+]

@@ -1,0 +1,28 @@
+.credits {
+    background: var(--body-color);
+}
+
+.credits__container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.credits__icon {
+    padding-bottom: 1.25rem;
+}
+
+.credits__link {
+    color: var(--title-color);
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.credits__link:hover {
+    color: hsl(43, 100%, 68%);
+}
+
+.fa-brands {
+    font-size: 2rem;
+}

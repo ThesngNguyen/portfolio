@@ -1,0 +1,5 @@
+{
+  "editor.fontFamily": "JetBrains Mono", // Font Family
+  "editor.fontSize": 13, // Font Size
+  "editor.fontLigatures": true, // Font ligatures
+}

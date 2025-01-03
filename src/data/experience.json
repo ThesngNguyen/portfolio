@@ -1,0 +1,60 @@
+[{
+        "experienceID": 1,
+        "experienceCategory": "Education",
+        "experienceIcon": "icon-graduation",
+        "experienceLogo": "https://images.squarespace-cdn.com/content/v1/5930dc9237c5817c00b10842/1557977826609-S7ISVVFV1H8P6ADD6BVM/hoa-sen.png?format=750w",
+        "experienceYear": "Nov 2020 - Dec 2024",
+        "experienceTitle": "Hoa Sen University",
+        "experienceDescription": [
+            "Specialization :",
+            "● Software Engineering",
+            "● Algorithms & Data Structure",
+            "● Machine Learning",
+            "● Internet of Things"
+        ]
+    },
+    {
+        "experienceID": 3,
+        "experienceCategory": "Work",
+        "experienceIcon": "icon-briefcase",
+        "experienceLogo": "https://whammy-bar-production.s3.ap-southeast-1.amazonaws.com/whammy-tech-logo.png",
+        "experienceYear": "Aug 2024 - Present",
+        "experienceTitle": "Whammy Tech",
+        "experienceDescription": [
+            "FullStack Developer",
+            "● Built and enhanced web features for managing promotions and notifications in the Popin Loyalty Program (UK).",
+            "● Refactored a legacy codebase, updated dataflows, and implemented a redesigned UI with the design team.",
+            "● Resolved customer-reported issues and provided technical support.",
+            "● Prepared release notes detailing updates and progress for both Web and Mobile platforms to keep customers informed.",
+            "● Key technologies: React, TypeScript, TypeORM, PostgreSQL, AWS (S3), Firebase Authentication."
+        ]
+    },
+    {
+        "experienceID": 4,
+        "experienceCategory": "Work",
+        "experienceIcon": "icon-briefcase",
+        "experienceLogo": "https://images.seeklogo.com/logo-png/53/2/msi-logo-png_seeklogo-533860.png",
+        "experienceYear": "Dec 2020 - Feb 2024",
+        "experienceTitle": "Micro-Star International (MSI)",
+        "experienceDescription": [
+            "IT Support",
+            "● Take care of KOLs/KOCs that cooperate with MSI.",
+            "● Manage the booth to display MSI products at participating events.",
+            "● PC Build, maintain and verify the characteristics of the company's hardware goods."
+        ]
+    },
+    {
+        "experienceID": 5,
+        "experienceCategory": "Work",
+        "experienceIcon": "icon-briefcase",
+        "experienceLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK3nABAhJu-ifLBVYv77Yq58Z-sWAkCxRuiA&s",
+        "experienceYear": "Dec 2020 - Feb 2023",
+        "experienceTitle": "Google Developer Student Club - HSU",
+        "experienceDescription": [
+            "Core Member - Developer",
+            "● Designed banners and backdrops for our fanpage.",
+            "● Supported the HSU IT Community with various tasks.",
+            "● Managed workshop events organized by the GDSC Lead."
+        ]
+    }
+]

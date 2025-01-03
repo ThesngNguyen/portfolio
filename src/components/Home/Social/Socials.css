@@ -1,0 +1,22 @@
+.home__socials {
+    display: flex;
+    column-gap: 1.75rem;
+    margin: 1.5rem 0;
+    justify-content: center;
+}
+
+.home__social-link {
+    color: var(--title-color);
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.home__social-link:hover {
+    color: var(--hover-color);
+}
+
+@media screen and (max-width: 1024px) {
+    .home__social-link {
+        font-size: 1.125rem;
+    }
+}
