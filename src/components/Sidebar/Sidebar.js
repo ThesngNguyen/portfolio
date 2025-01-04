@@ -10,6 +10,7 @@ function Sidebar() {
             <aside className={toggle ? "aside show-menu" : "aside"}>
                 <a href='#home' className='nav__logo'>
                     <img src={Logo} alt="" />
+                    <span className='version'>v2.1.6</span>
                 </a>
                 <nav className="nav">
                     <div className="nav__menu">
@@ -61,7 +62,7 @@ function Sidebar() {
                 </nav>
 
                 <div className="nav__footer">
-                    <span className="copyright">&copy; 2023 - 2024.</span>
+                    <span className="copyright">&copy; 2023 - 2025.</span>
                 </div>
             </aside>
             <div className={toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"} onClick={() => showMenu(!toggle)}>

@@ -39,6 +39,12 @@
     writing-mode: vertical-rl;
 }
 
+.version {
+    color: hsl(245, 15%, 65%);
+    font-size: 10px;
+    text-align: center;
+}
+
 .nav__toggle {
     position: fixed;
     top: 1.25rem;
