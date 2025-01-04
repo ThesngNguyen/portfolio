@@ -20,9 +20,9 @@ const App = () => {
   };
   return (
     <div data-theme={isDarkMode ? 'dark-mode' : 'light-mode'}>
-      <Sidebar toggleTheme={toggleTheme}></Sidebar>
+      <Sidebar></Sidebar>
       <main className="main">
-        <Home></Home>
+        <Home toggleTheme={toggleTheme}></Home>
         <About></About>
         <Experience></Experience>
         <Gallery></Gallery>
